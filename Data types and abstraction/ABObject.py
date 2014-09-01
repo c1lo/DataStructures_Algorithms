@@ -37,7 +37,7 @@ if __name__ == '__main__':
 
     obj3 = socket()
 
-    print 'The same classes'
+    print 'The same classes:'
     print obj1._compareTo(obj2)
     print obj1.__cmp__(obj2)
     print cmp(obj1, obj2)
